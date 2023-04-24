@@ -1,0 +1,11 @@
+class Solution:
+    def findDelayedArrivalTime(self, arrivalTime: int, delayedTime: int) -> int:
+        if 1<=(arrivalTime+delayedTime)<24:
+           print(arrivalTime+delayedTime)
+           return arrivalTime+delayedTime
+        elif 48>=(arrivalTime+delayedTime)>24:
+            print((arrivalTime+delayedTime)-24)
+            return ((arrivalTime+delayedTime)-24)
+        else:
+            print(0)
+            return 0
